@@ -26,13 +26,6 @@ public class MyURLs
             url = "http://shakespeare.mit.edu/Poetry/sonnet." + sonnetCounter + ".html";
             urls.add(url);
         }
-
-        /*for(int i = 0; i < 2; i++)
-        {
-            sonnetCounter = romeNumbers[i];
-            url = "http://shakespeare.mit.edu/Poetry/sonnet." + sonnetCounter + ".html";
-            urls.add(url);
-        }*/
     }
 
     public int getNumOfUrls()

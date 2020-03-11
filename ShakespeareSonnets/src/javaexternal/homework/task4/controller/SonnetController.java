@@ -29,10 +29,8 @@ public class SonnetController
 
         for (String url: urls)
         {
-            Map<String, Integer> smallMap = model.getSmallMap(url);
-            model.addSmallMapToListOfSmallMaps(smallMap);
+            model.addSmallMapToBigMap(model.getSmallMap(url));
         }
-        model.addDataToBigMap();
 
         System.out.println(view.ENTER_SEARCHED_WORD);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -49,6 +47,6 @@ public class SonnetController
                 model.searchWordAndGetItsUrlsAndFreq(model.getSearchedWord());
 
         view.displayUrlsAndFreqOfSearchedWord(model, listOfUrlsAndFreqOfSearchedWord);
-        //view.displayMapOfWordsAndTheirFreq(model);
+        view.displayBigMap(model);
     }
 }

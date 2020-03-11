@@ -10,25 +10,6 @@ public class SonnetView
 {
     public final String ENTER_SEARCHED_WORD = "Enter the searched word: ";
 
-    public void displayMapOfWordsAndTheirFreq(SonnetModel model)
-    {
-        Set<Map.Entry<String, List<Map<String, Integer>>>> bigSet = model.getBigMap().entrySet();
-
-        for (Map.Entry<String, List<Map<String, Integer>>> entry : bigSet)
-        {
-            System.out.println("Word: " + entry.getKey());
-
-            for(Map<String, Integer> innerMap: entry.getValue())
-            {
-                Set<Map.Entry<String, Integer>> smallSet = innerMap.entrySet();
-                for(Map.Entry<String, Integer> map: smallSet)
-                {
-                    System.out.println("url: " + map.getKey() + "frequency: " + map.getValue() + "\n");
-                }
-            }
-        }
-    }
-
     public void displayUrlsAndFreqOfSearchedWord(SonnetModel model, List<Map<String, Integer>> listOfUrlsAndFreq)
     {
         if(listOfUrlsAndFreq != null)
@@ -46,6 +27,11 @@ public class SonnetView
         else
             System.out.println("There is not this word in sonnets 1-20");
         System.out.println();
+    }
+
+    public void displayBigMap(SonnetModel model)
+    {
+
     }
 
     public void displayUrls(List<String> urls)

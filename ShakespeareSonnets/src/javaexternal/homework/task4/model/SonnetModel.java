@@ -6,10 +6,10 @@ public class SonnetModel
 {
     private String searchedWord;
     Set<String> wordsFromAllUrls = new HashSet<>();
-    List<Map<String, Integer>> listOfSmallMaps = new ArrayList<>();
 
-    // key - word, value - list of urls and their frequency
+    // key - word, value - list of urls and word frequency in every url
     Map<String, List<Map<String, Integer>>> bigMap = new HashMap<>();
+
 
     public String getSearchedWord()
     {
@@ -21,58 +21,55 @@ public class SonnetModel
         this.searchedWord = searchedWord;
     }
 
-    public Map<String, Integer> getSmallMap(String url)
+    public Map<String, Map<String, Integer>> getSmallMap(String url)
     {
         // key - word, value - its frequency from one url
-        Map<String, Integer> smallMap = new HashMap<>();
+        Map<String, Map<String, Integer>> smallMap = new HashMap<>();
 
         URLReader urlReader = new URLReader();
-        String[] words = urlReader.getAllWordsFromHtmlPage(url).split(" ");
+        String[] words = urlReader.getAllWordsFromHtmlPage(url).toLowerCase().split("[\\s,.?!<>]");
         wordsFromAllUrls.addAll(Arrays.asList(words));
 
         for(String word: words)
         {
             String key = word;
-            Integer value;
+            Map<String, Integer> value = new HashMap<>();
+            Integer wordFreq;
 
-            Integer frequency = smallMap.get(word);
-            if(frequency == null)
-                value = 1;
+            if(smallMap.containsKey(word))
+            {
+                wordFreq = smallMap.get(word).get(url);
+                ++wordFreq;
+            }
             else
-                value = ++frequency;
+                wordFreq = 1;
 
+            value.put(url, wordFreq);
             smallMap.put(key, value);
         }
-
         return smallMap;
     }
 
-    public void addSmallMapToListOfSmallMaps(Map<String, Integer> smallMap)
+    public void addSmallMapToBigMap(Map<String, Map<String, Integer>> map)
     {
-        listOfSmallMaps.add(smallMap);
-    }
+        Set<Map.Entry<String, Map<String, Integer>>> smallSet = map.entrySet();
+        Set<Map.Entry<String, List<Map<String, Integer>>>> bigSet = bigMap.entrySet();
 
-    public void addDataToBigMap()
-    {
-        MyURLs myURLs = new MyURLs();
-        List<String> urls = myURLs.getUrlsList();
-
-        for(String word: wordsFromAllUrls)
+        for(Map.Entry<String, Map<String, Integer>> entry: smallSet)
         {
-            List<Map<String, Integer>> listOfInnerMaps = new LinkedList<>();
-            for(String url: urls)
-            {
-                Map<String, Integer> map = getSmallMap(url);
-                Map<String, Integer> innerMap = new HashMap<>();
+            List<Map<String, Integer>> innerListOfBigMap = new LinkedList<>();
 
-                if(map.containsKey(word))
-                {
-                    Integer wordFrequency = map.get(word);
-                    innerMap.put(url, wordFrequency);
-                    listOfInnerMaps.add(innerMap);
-                }
+            if(bigMap.containsKey(entry.getKey()))
+            {
+                innerListOfBigMap = bigMap.get(entry.getKey());
+                innerListOfBigMap.add(entry.getValue());
+                bigMap.replace(entry.getKey(), innerListOfBigMap);
             }
-            bigMap.put(word, listOfInnerMaps);
+            else
+            {
+                innerListOfBigMap.add(entry.getValue());
+                bigMap.put(entry.getKey(), innerListOfBigMap);
+            }
         }
     }
 
