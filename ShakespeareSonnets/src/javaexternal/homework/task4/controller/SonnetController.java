@@ -1,6 +1,5 @@
 package javaexternal.homework.task4.controller;
 
-
 import javaexternal.homework.task4.model.MyURLs;
 import javaexternal.homework.task4.model.SonnetModel;
 import javaexternal.homework.task4.view.SonnetView;
@@ -22,18 +21,25 @@ public class SonnetController
         this.view = view;
     }
 
-    public void execute()
+    public int getUserChoice()
     {
-        MyURLs myURLs = new MyURLs();
-        List<String> urls = myURLs.getUrlsList();
+        int userChoice;
+        int defaultChoice = -1;
 
-        for (String url: urls)
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try
         {
-            model.addSmallMapToBigMap(model.getSmallMap(url));
+            userChoice = Integer.parseInt(reader.readLine());
+            return userChoice;
         }
-        view.displayBigMap(model);
-        System.out.println();
+        catch (IOException | NumberFormatException e)
+        {
+            return defaultChoice;
+        }
+    }
 
+    public void searchWord()
+    {
         System.out.println(view.ENTER_SEARCHED_WORD);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try
@@ -42,12 +48,49 @@ public class SonnetController
         }
         catch (IOException e)
         {
-            e.printStackTrace();
+            System.out.println(view.WRONG_INPUT);
         }
+
 
         List<Map<String, Integer>> listOfUrlsAndFreqOfSearchedWord =
                 model.searchWordAndGetItsUrlsAndFreq(model.getSearchedWord());
 
         view.displayUrlsAndFreqOfSearchedWord(model, listOfUrlsAndFreqOfSearchedWord);
+    }
+
+    public void execute()
+    {
+        boolean continueUsingThisSoftware = true;
+
+        MyURLs myURLs = new MyURLs();
+        List<String> urls = myURLs.getUrlsList();
+
+        for (String url: urls)
+        {
+            model.addSmallMapToBigMap(model.getSmallMap(url));
+        }
+
+        do
+        {
+           view.showMenu();
+           switch(getUserChoice())
+           {
+               case 1:
+                   view.displayBigMap(model);
+                   System.out.println();
+                   break;
+               case 2:
+                   searchWord();
+                   break;
+               case 3:
+                   continueUsingThisSoftware = false;
+                   break;
+               default:
+                   System.out.println(view.WRONG_INPUT);
+                   break;
+
+           }
+
+        } while(continueUsingThisSoftware);
     }
 }

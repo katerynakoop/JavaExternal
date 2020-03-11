@@ -2,13 +2,12 @@ package javaexternal.homework.task4.view;
 
 import javaexternal.homework.task4.model.SonnetModel;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SonnetView
 {
     public final String ENTER_SEARCHED_WORD = "Enter the searched word: ";
+    public final String WRONG_INPUT = "Wrong input!\n";
 
     public void displayUrlsAndFreqOfSearchedWord(SonnetModel model, List<Map<String, Integer>> listOfUrlsAndFreq)
     {
@@ -25,7 +24,7 @@ public class SonnetView
             }
         }
         else
-            System.out.println("There is not this word in sonnets 1-20");
+            System.out.println("There is not this word in these URLs!");
         System.out.println();
     }
 
@@ -34,6 +33,7 @@ public class SonnetView
         Map<String, List<Map<String, Integer>>> bigMap = model.getBigMap();
 
         Set<Map.Entry<String, List<Map<String, Integer>>>> bigMapSet = bigMap.entrySet();
+
         for(Map.Entry<String, List<Map<String, Integer>>> entry: bigMapSet)
         {
             System.out.println("Word: " + entry.getKey());
@@ -42,6 +42,7 @@ public class SonnetView
             for(Map<String, Integer> mapOfInnerList: innerList)
             {
                 Set<Map.Entry<String, Integer>> setOfMapOfInnerList = mapOfInnerList.entrySet();
+
                 for(Map.Entry<String, Integer> entryOfMapOfInnerList: setOfMapOfInnerList)
                 {
                     System.out.print("URL: " + entryOfMapOfInnerList.getKey() + "\t\t");
@@ -57,5 +58,14 @@ public class SonnetView
         {
             System.out.println(url);
         }
+    }
+
+    public void showMenu()
+    {
+        System.out.println("Select action: ");
+        System.out.println("1: display all words from urls");
+        System.out.println("2: search a word");
+        System.out.println("3: exit the application");
+        System.out.print("\nEnter your choice: ");
     }
 }
