@@ -1,4 +1,4 @@
-package javaexternal.homework.task4;
+package javaexternal.homework.task4.runner;
 
 
 import javaexternal.homework.task4.controller.SonnetController;

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3937c21b-003d-4ac2-b5c8-afa235224bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/controller/SonnetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/controller/SonnetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/model/MyURLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/model/MyURLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/model/SonnetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/model/SonnetModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/view/SonnetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/view/SonnetView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShakespeareSonnets/javaexternal/homework/task4/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/runner/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -33,11 +32,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaexternal.homework.task4.Runner" />
+      <option name="MAIN_CLASS_NAME" value="javaexternal.homework.task4.runner.Runner" />
       <module name="ShakespeareSonnets" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaexternal.homework.task4.*" />
+          <option name="PATTERN" value="javaexternal.homework.task4.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +62,7 @@
       <updated>1583865462396</updated>
       <workItem from="1583867887468" duration="2239000" />
       <workItem from="1583879341073" duration="4242000" />
-      <workItem from="1583917998021" duration="5045000" />
+      <workItem from="1583917998021" duration="5296000" />
     </task>
     <servers />
   </component>
@@ -71,22 +70,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1583924602507">
+    <state width="1493" height="349" key="GridCell.Tab.0.bottom" timestamp="1583925017213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583924602507" />
-    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1583924602506">
+    <state width="1493" height="349" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583925017213" />
+    <state width="1493" height="349" key="GridCell.Tab.0.center" timestamp="1583925017212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583924602506" />
-    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1583924602506">
+    <state width="1493" height="349" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583925017212" />
+    <state width="1493" height="349" key="GridCell.Tab.0.left" timestamp="1583925017212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583924602506" />
-    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1583924602507">
+    <state width="1493" height="349" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583925017212" />
+    <state width="1493" height="349" key="GridCell.Tab.0.right" timestamp="1583925017213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583924602507" />
+    <state width="1493" height="349" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583925017213" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583921237112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -112,7 +111,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javaexternal/homework/task4/Runner.java</url>
+          <url>file://$PROJECT_DIR$/src/javaexternal/homework/task4/runner/Runner.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
