@@ -31,7 +31,24 @@ public class SonnetView
 
     public void displayBigMap(SonnetModel model)
     {
+        Map<String, List<Map<String, Integer>>> bigMap = model.getBigMap();
 
+        Set<Map.Entry<String, List<Map<String, Integer>>>> bigMapSet = bigMap.entrySet();
+        for(Map.Entry<String, List<Map<String, Integer>>> entry: bigMapSet)
+        {
+            System.out.println("Word: " + entry.getKey());
+            List<Map<String, Integer>> innerList = entry.getValue();
+
+            for(Map<String, Integer> mapOfInnerList: innerList)
+            {
+                Set<Map.Entry<String, Integer>> setOfMapOfInnerList = mapOfInnerList.entrySet();
+                for(Map.Entry<String, Integer> entryOfMapOfInnerList: setOfMapOfInnerList)
+                {
+                    System.out.print("URL: " + entryOfMapOfInnerList.getKey() + "\t\t");
+                    System.out.println("WORD'S FREQUENCY: " + entryOfMapOfInnerList.getValue());
+                }
+            }
+        }
     }
 
     public void displayUrls(List<String> urls)

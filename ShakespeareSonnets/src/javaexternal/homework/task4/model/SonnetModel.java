@@ -27,7 +27,7 @@ public class SonnetModel
         Map<String, Map<String, Integer>> smallMap = new HashMap<>();
 
         URLReader urlReader = new URLReader();
-        String[] words = urlReader.getAllWordsFromHtmlPage(url).toLowerCase().split("[\\s,.?!<>]");
+        String[] words = urlReader.getAllWordsFromHtmlPage(url).toLowerCase().split("[\\s,.:;()?!<>]");
         wordsFromAllUrls.addAll(Arrays.asList(words));
 
         for(String word: words)
