@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3937c21b-003d-4ac2-b5c8-afa235224bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShakespeareSonnets/javaexternal/homework/task4/controller/SonnetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShakespeareSonnets/javaexternal/homework/task4/controller/SonnetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShakespeareSonnets/javaexternal/homework/task4/view/SonnetView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShakespeareSonnets/javaexternal/homework/task4/view/SonnetView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/controller/SonnetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/controller/SonnetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaexternal/homework/task4/view/SonnetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaexternal/homework/task4/view/SonnetView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <updated>1583865462396</updated>
       <workItem from="1583867887468" duration="2239000" />
       <workItem from="1583879341073" duration="4242000" />
-      <workItem from="1583917998021" duration="14043000" />
+      <workItem from="1583917998021" duration="14225000" />
     </task>
     <servers />
   </component>

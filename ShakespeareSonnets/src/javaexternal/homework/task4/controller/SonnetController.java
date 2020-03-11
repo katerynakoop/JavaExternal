@@ -30,12 +30,13 @@ public class SonnetController
         try
         {
             userChoice = Integer.parseInt(reader.readLine());
-            return userChoice;
         }
         catch (IOException | NumberFormatException e)
         {
-            return defaultChoice;
+            userChoice = defaultChoice;
         }
+
+        return userChoice;
     }
 
     public void searchWord()
