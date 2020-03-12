@@ -53,7 +53,6 @@ public class SonnetModel
     public void addSmallMapToBigMap(Map<String, Map<String, Integer>> map)
     {
         Set<Map.Entry<String, Map<String, Integer>>> smallSet = map.entrySet();
-        Set<Map.Entry<String, List<Map<String, Integer>>>> bigSet = bigMap.entrySet();
 
         for(Map.Entry<String, Map<String, Integer>> entry: smallSet)
         {
