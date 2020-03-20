@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f50a22b-1fd6-4aac-8ea0-cb33f9e218a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZAGSnRjPSwcM8e14lQhPWMCRjf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestMavenProjects" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.WeatherStation">
+    <configuration name="CurrentWeather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.task5.weatherstation.gettingweather.CurrentWeather" />
+      <module name="WeatherStationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.task5.weatherstation.gettingweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoricalWeather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.task5.weatherstation.gettingweather.HistoricalWeather" />
+      <module name="WeatherStationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.task5.weatherstation.gettingweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.task5.weatherstation.runner.WeatherStation" />
+      <module name="WeatherStationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.task5.weatherstation.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="Application.CurrentWeather" />
+        <item itemvalue="Application.HistoricalWeather" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f50a22b-1fd6-4aac-8ea0-cb33f9e218a5" name="Default Changelist" comment="" />
+      <created>1584274486866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584274486866</updated>
+      <workItem from="1584274490100" duration="384000" />
+      <workItem from="1584274952734" duration="4092000" />
+      <workItem from="1584279114934" duration="6316000" />
+      <workItem from="1584375904843" duration="5460000" />
+      <workItem from="1584459567720" duration="3218000" />
+      <workItem from="1584475325867" duration="6281000" />
+      <workItem from="1584520411230" duration="2809000" />
+      <workItem from="1584525526456" duration="5193000" />
+      <workItem from="1584554819847" duration="12149000" />
+      <workItem from="1584620533249" duration="2870000" />
+      <workItem from="1584636351102" duration="7452000" />
+      <workItem from="1584646333797" duration="8454000" />
+      <workItem from="1584707938930" duration="7081000" />
+      <workItem from="1584733104540" duration="220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1584278859467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584278859467" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1584649696782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584649696782" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584278522488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584278522488" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584556305082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584556305082" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1584709024637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584709024637" />
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.0.center" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.0.left" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.0.right" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.1.bottom" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.1.center" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.1.left" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state width="1493" height="344" key="GridCell.Tab.1.right" timestamp="1584719140628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="344" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584719140628" />
+    <state x="439" y="111" key="NewModule_or_Project.wizard" timestamp="1584278760777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="111" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1584278760777" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1584279065252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584279065252" />
+    <state x="209" y="108" key="new project wizard" timestamp="1584278416636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584278416636" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584485363690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584485363690" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaexternal/task5/weatherstation/runner/WeatherStation.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
