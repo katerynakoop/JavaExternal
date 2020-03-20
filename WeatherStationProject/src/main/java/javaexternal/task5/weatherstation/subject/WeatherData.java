@@ -75,8 +75,8 @@ public class WeatherData implements Subject
         this.temperature = converseKelvinToCelsius(parser.getTemperature());
         this.humidity = parser.getHumidity();
         this.pressure = parser.getPressure();
-        this.temp_min = parser.getTempMin();
-        this.temp_max = parser.getTempMax();
+        this.temp_min = converseKelvinToCelsius(parser.getTempMin());
+        this.temp_max = converseKelvinToCelsius(parser.getTempMax());
         this.wind_speed = parser.getWindSpeed();
 
         measurementsChanged();

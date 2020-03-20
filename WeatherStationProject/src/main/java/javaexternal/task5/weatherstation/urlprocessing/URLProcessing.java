@@ -21,7 +21,7 @@ public class URLProcessing
 
     public String getURL(String location, String dataFormat)
     {
-        url = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&appid=" + apiKey + "&mode=" + dataFormat;
+        url = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&mode=" + dataFormat + "&appid=" + apiKey;
         return url;
     }
 

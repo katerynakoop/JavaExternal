@@ -26,6 +26,11 @@ public class DataFormat
                 dataFormat = "json";
 
         }
+        catch (NumberFormatException e)
+        {
+            //make logs
+            e.printStackTrace();
+        }
         catch (IOException e)
         {
             // make logs
