@@ -1,0 +1,10 @@
+2020-03-21 03:13:04 ERROR [main]: java.lang.NumberFormatException: For input string: "grfd"
+2020-03-21 03:16:31 ERROR [main]: java.lang.NumberFormatException: For input string: ""
+2020-03-21 03:19:27 ERROR [main]: java.lang.NumberFormatException: For input string: "wdew"
+2020-03-21 03:26:10 ERROR [main]: java.lang.NumberFormatException: For input string: "k"
+2020-03-21 03:31:34 ERROR [main]: java.lang.NumberFormatException: For input string: "reds"
+2020-03-21 03:33:21 ERROR [main]: java.lang.NumberFormatException: For input string: "rers"
+2020-03-21 03:36:47 ERROR [main]: java.lang.NumberFormatException: For input string: "gref"
+2020-03-21 03:36:47 ERROR [main]: java.lang.NullPointerException
+2020-03-21 03:40:22 ERROR [main]: java.lang.NumberFormatException: For input string: "dcddf"
+2020-03-21 03:40:22 ERROR [main]: java.lang.NullPointerException

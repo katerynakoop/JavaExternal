@@ -3,6 +3,7 @@ package javaexternal.task5.weatherstation.urlprocessing;
 import javaexternal.task5.weatherstation.parser.JSONParser;
 import javaexternal.task5.weatherstation.parser.Parser;
 import javaexternal.task5.weatherstation.parser.XMLParser;
+import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +15,7 @@ import java.net.UnknownHostException;
 
 public class URLProcessing
 {
+    static final Logger logger = Logger.getLogger(URLProcessing.class);
     private String url;
     final String apiKey = "915eb950e65e6f7b5fe92163c41e3e34";
     private static HttpURLConnection connection;
@@ -60,16 +62,19 @@ public class URLProcessing
         }
 
         // write Exceptions to logs
-        catch (MalformedURLException ex)
+        catch (MalformedURLException e)
         {
+            logger.error(e);
             System.out.println("Caught MalformedURLException");
         }
         catch (UnknownHostException e)
         {
+            logger.error(e);
             System.out.println("Caught UnknownHostException. Check your Internet connection!");
         }
         catch (IOException e)
         {
+            logger.error(e);
             System.out.println("Caught IOException");
         }
         finally

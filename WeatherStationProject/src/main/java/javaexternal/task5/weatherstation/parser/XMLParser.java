@@ -1,9 +1,8 @@
 package javaexternal.task5.weatherstation.parser;
 
+import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
@@ -15,6 +14,7 @@ import java.io.StringReader;
 
 public class XMLParser extends Parser
 {
+    final static Logger logger = Logger.getLogger(XMLParser.class);
     @Override
     public void parse(String responseBody)
     {
@@ -42,8 +42,7 @@ public class XMLParser extends Parser
         }
         catch (ParserConfigurationException | SAXException | IOException e)
         {
-            // make logs
-            e.printStackTrace();
+            logger.error(e);
         }
 
     }

@@ -3,6 +3,7 @@ package javaexternal.task5.weatherstation.urlprocessing;
 import javaexternal.task5.weatherstation.parser.JSONParser;
 import javaexternal.task5.weatherstation.parser.Parser;
 import javaexternal.task5.weatherstation.parser.XMLParser;
+import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,6 +11,7 @@ import java.io.InputStreamReader;
 
 public class DataFormat
 {
+    final static Logger logger = Logger.getLogger(DataFormat.class);
     private String dataFormat;
 
     public void setResponseDataFormat()
@@ -26,15 +28,9 @@ public class DataFormat
                 dataFormat = "json";
 
         }
-        catch (NumberFormatException e)
+        catch (NumberFormatException | IOException e)
         {
-            //make logs
-            e.printStackTrace();
-        }
-        catch (IOException e)
-        {
-            // make logs
-            e.printStackTrace();
+            logger.error(e);
         }
     }
 

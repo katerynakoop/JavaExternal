@@ -1,11 +1,14 @@
 package javaexternal.task5.weatherstation.urlprocessing;
 
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Location
 {
+    static final Logger logger = Logger.getLogger(Location.class);
     private String city;
     BufferedReader reader;
 
@@ -20,8 +23,7 @@ public class Location
         }
         catch (IOException e)
         {
-            e.printStackTrace();
-            // make logs
+            logger.error(e);
         }
     }
 

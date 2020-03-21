@@ -1,17 +1,19 @@
 package javaexternal.task5.weatherstation.subject;
 
 import javaexternal.task5.weatherstation.observer.Observer;
-import javaexternal.task5.weatherstation.parser.JSONParser;
 import javaexternal.task5.weatherstation.parser.Parser;
 import javaexternal.task5.weatherstation.urlprocessing.DataFormat;
 import javaexternal.task5.weatherstation.urlprocessing.Location;
 import javaexternal.task5.weatherstation.urlprocessing.URLProcessing;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class WeatherData implements Subject
 {
+    static final Logger logger = Logger.getLogger(WeatherData.class);
     private List<Observer> observers;
     private float temperature;
     private float humidity;
@@ -58,28 +60,35 @@ public class WeatherData implements Subject
 
     public void getMeasurementsFromOpenWeatherMapAPI()
     {
-        URLProcessing urlProcessing = new URLProcessing();
-        Location location = new Location();
-        DataFormat dataFormat = new DataFormat();
-        Parser parser;
+        try
+        {
+            URLProcessing urlProcessing = new URLProcessing();
+            Location location = new Location();
+            DataFormat dataFormat = new DataFormat();
+            Parser parser;
 
-        dataFormat.setResponseDataFormat();
-        parser = dataFormat.getParser();
+            dataFormat.setResponseDataFormat();
+            parser = dataFormat.getParser();
 
-        location.setLocation();
-        String url = urlProcessing.getURL(location.getLocation(), dataFormat.getDataFormat());
+            location.setLocation();
+            String url = urlProcessing.getURL(location.getLocation(), dataFormat.getDataFormat());
 
-        String response = urlProcessing.getResponseBodyFromUrl(url);
-        parser.parse(response);
+            String response = urlProcessing.getResponseBodyFromUrl(url);
+            parser.parse(response);
 
-        this.temperature = converseKelvinToCelsius(parser.getTemperature());
-        this.humidity = parser.getHumidity();
-        this.pressure = parser.getPressure();
-        this.temp_min = converseKelvinToCelsius(parser.getTempMin());
-        this.temp_max = converseKelvinToCelsius(parser.getTempMax());
-        this.wind_speed = parser.getWindSpeed();
+            this.temperature = converseKelvinToCelsius(parser.getTemperature());
+            this.humidity = parser.getHumidity();
+            this.pressure = parser.getPressure();
+            this.temp_min = converseKelvinToCelsius(parser.getTempMin());
+            this.temp_max = converseKelvinToCelsius(parser.getTempMax());
+            this.wind_speed = parser.getWindSpeed();
 
-        measurementsChanged();
+            measurementsChanged();
+        }
+        catch (NullPointerException e)
+        {
+            logger.error(e);
+        }
     }
 
     public float converseKelvinToCelsius(float KelvinTemp)
