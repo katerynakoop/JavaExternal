@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<beers>
+    <beer>
+        <name>Kronenbourg 1664 Blanc</name>
+        <type>stout</type>
+        <alcohol>alcoholic</alcohol>
+        <manufacturer>Kronenbourg</manufacturer>
+        <ingredients>
+            <water unit="liters">1</water>
+            <grain unit="grams">250</grain>
+            <hops unit="grams">50</hops>
+            <yeast unit="grams">20</yeast>
+            <sugar unit="kilograms">2</sugar>
+        </ingredients>
+        <characteristics>
+            <strength unit="%">10</strength>
+            <transparency unit="%">50</transparency>
+            <filtering>yes</filtering>
+            <nutritional_value unit="kilocalories">42</nutritional_value>
+        </characteristics>
+    </beer>
+    <beer>
+        <name>Corona extra porter</name>
+        <type>porter</type>
+        <alcohol>non-alcoholic</alcohol>
+        <manufacturer>Corona extra</manufacturer>
+        <ingredients>
+            <water unit="liters">1</water>
+            <grain unit="grams">210</grain>
+            <hops unit="grams">60</hops>
+            <yeast unit="grams">22</yeast>
+            <sugar unit="kilograms">3</sugar>
+        </ingredients>
+        <characteristics>
+            <strength unit="%">0</strength>
+            <transparency unit="%">70</transparency>
+            <filtering>yes</filtering>
+            <nutritional_value unit="kilocalories">50</nutritional_value>
+        </characteristics>
+    </beer>
+</beers>

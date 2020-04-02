@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d68ef57-8b3f-4434-9e9b-2e38c0ead188" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZgqdK39tQ9s52nY9sxD79M9t7f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chapter14XML" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.13351135" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\koopk\IdeaProjects\XMLParserProj\src\main\resources" />
+      <recent name="C:\Users\koopk\IdeaProjects\XMLParserProj\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="MyDOMParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task6.xmlparser.model.parser.dom.MyDOMParser" />
+      <module name="XMLParserProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task6.xmlparser.model.parser.dom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMarshaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task6.xmlparser.model.marshaller.MyMarshaller" />
+      <module name="XMLParserProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task6.xmlparser.model.marshaller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySAXParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task6.xmlparser.model.parser.sax.MySAXParser" />
+      <module name="XMLParserProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task6.xmlparser.model.parser.sax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStAXParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task6.xmlparser.model.parser.stax.MyStAXParser" />
+      <module name="XMLParserProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task6.xmlparser.model.parser.stax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task6.xmlparser.Runner" />
+      <module name="XMLParserProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task6.xmlparser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.MyMarshaller" />
+        <item itemvalue="Application.MyStAXParser" />
+        <item itemvalue="Application.MyDOMParser" />
+        <item itemvalue="Application.MySAXParser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d68ef57-8b3f-4434-9e9b-2e38c0ead188" name="Default Changelist" comment="" />
+      <created>1585271170947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585271170947</updated>
+      <workItem from="1585271174722" duration="2068000" />
+      <workItem from="1585273267824" duration="4866000" />
+      <workItem from="1585318384807" duration="6197000" />
+      <workItem from="1585324608390" duration="21973000" />
+      <workItem from="1585356228243" duration="3760000" />
+      <workItem from="1585400152061" duration="3537000" />
+      <workItem from="1585404153600" duration="14129000" />
+      <workItem from="1585480528189" duration="29253000" />
+      <workItem from="1585567179323" duration="36418000" />
+      <workItem from="1585830609584" duration="514000" />
+      <workItem from="1585831139440" duration="6232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585837901595">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585837901595" />
+    <state x="439" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585740530164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585740530164" />
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585431260669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1585431260669" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585837387849">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585837387849" />
+    <state x="584" y="348" width="367" height="360" key="#com.intellij.ws.xml.jaxb.GenerateJAXBSchemasFromJavaDialog" timestamp="1585271641370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="348" width="367" height="360" key="#com.intellij.ws.xml.jaxb.GenerateJAXBSchemasFromJavaDialog/0.0.1536.824@0.0.1536.824" timestamp="1585271641370" />
+    <state x="556" y="241" key="#com.intellij.ws.xml.jaxb.GenerateJavaFromJAXBSchemasDialog" timestamp="1585321412125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="241" key="#com.intellij.ws.xml.jaxb.GenerateJavaFromJAXBSchemasDialog/0.0.1536.824@0.0.1536.824" timestamp="1585321412125" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585831162826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585831162826" />
+    <state width="1493" height="432" key="GridCell.Tab.0.bottom" timestamp="1585839360694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="432" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585839360694" />
+    <state width="1493" height="432" key="GridCell.Tab.0.center" timestamp="1585839360693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="432" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585839360693" />
+    <state width="1493" height="432" key="GridCell.Tab.0.left" timestamp="1585839360693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="432" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585839360693" />
+    <state width="1493" height="432" key="GridCell.Tab.0.right" timestamp="1585839360694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="432" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585839360694" />
+    <state width="1493" height="482" key="GridCell.Tab.1.bottom" timestamp="1585531425661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585531425661" />
+    <state width="1493" height="482" key="GridCell.Tab.1.center" timestamp="1585531425660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585531425660" />
+    <state width="1493" height="482" key="GridCell.Tab.1.left" timestamp="1585531425660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585531425660" />
+    <state width="1493" height="482" key="GridCell.Tab.1.right" timestamp="1585531425660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="482" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585531425660" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1585271386755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585271386755" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1585321143450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1585321143450" />
+    <state x="209" y="108" key="new project wizard" timestamp="1585781222980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585781222980" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585344381459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585344381459" />
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585321463871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1585321463871" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaexternal/epam/task6/xmlparser/model/beerbuilder/BeerBuilder.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaexternal/epam/task6/xmlparser/model/parser/dom/MyDOMParser.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/javaexternal/epam/task6/xmlparser/model/parser/stax/MyStAXParser.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="beers" type="beers"/>
+
+    <xs:complexType name="beers">
+        <xs:sequence>
+            <xs:element type="beerType" name="beer" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="waterType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="liters"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="grainType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="grams"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="hopsType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="grams"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="yeastType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="grams"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="sugarType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="kilograms"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="ingredientsType">
+        <xs:sequence>
+            <xs:element type="waterType" name="water"/>
+            <xs:element type="grainType" name="grain"/>
+            <xs:element type="hopsType" name="hops"/>
+            <xs:element type="yeastType" name="yeast"/>
+            <xs:element type="sugarType" name="sugar"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="strengthType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="%"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="transparencyType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="%"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="nutritional_valueType">
+        <xs:simpleContent>
+            <xs:extension base="xs:int">
+                <xs:attribute type="xs:string" name="unit" default="kilocalories"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="characteristicsType">
+        <xs:sequence>
+            <xs:element name="strength">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="strengthType">
+                            <xs:minInclusive value="0"/>
+                            <xs:maxInclusive value="15"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="transparency">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="transparencyType">
+                            <xs:minInclusive value="0"/>
+                            <xs:maxInclusive value="100"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="filtering">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="yes"/>
+                    <xs:enumeration value="no"/>
+                </xs:restriction>
+            </xs:simpleType>
+            </xs:element>
+
+            <xs:element type="nutritional_valueType" name="nutritional_value"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="beerType">
+        <xs:sequence>
+
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="type">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="light"/>
+                        <xs:enumeration value="ale"/>
+                        <xs:enumeration value="wheat"/>
+                        <xs:enumeration value="porter"/>
+                        <xs:enumeration value="stout"/>
+                        <xs:enumeration value="marzen"/>
+                        <xs:enumeration value="dunkel"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="alcohol">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="alcoholic"/>
+                        <xs:enumeration value="non-alcoholic"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="manufacturer">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                   <xs:pattern value="\w+"/>
+                </xs:restriction>
+            </xs:simpleType>
+            </xs:element>
+
+            <xs:element type="ingredientsType" name="ingredients"/>
+            <xs:element type="characteristicsType" name="characteristics"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
