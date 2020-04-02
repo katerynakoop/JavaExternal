@@ -1,2 +1,1 @@
-# JavaExternal
-My main java course repository
+# JavaExternal. My main java course repository
