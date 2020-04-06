@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4abb74f7-4f0a-44c0-ad07-c058a4a1440a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cities_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cities_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cities_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cities_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cities_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cities_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cities: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="8b6fdf7c-ca69-4d03-9e95-c5f9c64f900a">
+        <node key="cities_db" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="8b6fdf7c-ca69-4d03-9e95-c5f9c64f900a" />
+    </expanded>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZznGfQYaqwrgLlCUAJFlhQc6Nr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XMLParserProj" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\koopk\IdeaProjects\JDBC\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DBConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaexternal.epam.task7.model.connection.DBConnector" />
+      <module name="CitiesJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaexternal.epam.task7.model.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBConnector" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4abb74f7-4f0a-44c0-ad07-c058a4a1440a" name="Default Changelist" comment="" />
+      <created>1585850695326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585850695326</updated>
+      <workItem from="1585850704840" duration="3028000" />
+      <workItem from="1585935728625" duration="16318000" />
+      <workItem from="1586102736619" duration="18382000" />
+      <workItem from="1586172341695" duration="5470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1586015674717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1586015674717" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586015371879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586015371879" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586177833686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586177833686" />
+    <state x="354" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586178533045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1586178533045" />
+    <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586175701561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586175701561" />
+    <state x="569" y="115" key="ExecutionTargetDialog" timestamp="1586015869191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="115" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1586015869191" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586023949311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586023949311" />
+    <state width="1537" height="175" key="GridCell.Tab.0.bottom" timestamp="1586049307312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586049307312" />
+    <state width="1537" height="175" key="GridCell.Tab.0.center" timestamp="1586049307312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586049307312" />
+    <state width="1537" height="175" key="GridCell.Tab.0.left" timestamp="1586049307312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586049307312" />
+    <state width="1537" height="175" key="GridCell.Tab.0.right" timestamp="1586049307312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586049307312" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1586015397236">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1586015397236" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586025793978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586025793978" />
+    <state x="209" y="108" key="new project wizard" timestamp="1586014842793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586014842793" />
+  </component>
+</project>
